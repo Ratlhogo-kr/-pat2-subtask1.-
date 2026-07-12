@@ -40,3 +40,16 @@ string charToMorse(char c)
 		default: return""; 
 	}
 }
+
+int main()
+{
+	string userMessage;
+	
+	cout<<"Enter a message:";
+	getline(cin, userMessage);
+	
+	cout<<"\n-- Full Morse Code Message: --\n\n";
+	
+//Process each character
+	for(char c : userMessage)
+	{
