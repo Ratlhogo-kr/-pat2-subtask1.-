@@ -58,3 +58,30 @@ int main()
 		{
 			continue;
 		}
+		
+//Ignore punctuation and other symbols(except spaces)
+		if(!isalpha(c) && c != ' ')
+	{
+		continue;
+	}
+		
+		string morse = charToMorse(c);
+		
+		if(!morse.empty())
+		{
+			if(c == ' ')
+			{ 
+			  cout <<"[SPACE]"<<endl;
+			  continue;
+			 }
+			 
+			 string morse = charToMorse(c);
+		     
+		     if(!morse.empty())
+		     { 	 
+			   cout<<(char)toupper(c)<<":"<<morse<<endl;
+		}
+	}
+}
+	return 0;
+}
