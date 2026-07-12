@@ -53,3 +53,8 @@ int main()
 //Process each character
 	for(char c : userMessage)
 	{
+//Ignore all numbers
+		if(isdigit(c))
+		{
+			continue;
+		}
