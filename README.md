@@ -32,7 +32,7 @@ A dash is exactly three times the duration of a dot, and silence gaps of varying
 ## Screenshots
 ![image alt](https://github.com/Ratlhogo-kr/-pat2-subtask1.-/blob/a5d2eec632be460a11c4e9297eab7717ea8d136b/images.jpeg)
 
-![image alt](https://github.com/Ratlhogo-kr/-pat2-subtask1.-/blob/a5d2eec632be460a11c4e9297eab7717ea8d136b/images.jpeg)
+![image alt](https://github.com/Ratlhogo-kr/-pat2-subtask1.-/blob/2cc1844be10e667e18c543f2c5b6674c1ec1da6d/Morse_Code_Receiver.jpg)
 
 
 ![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
