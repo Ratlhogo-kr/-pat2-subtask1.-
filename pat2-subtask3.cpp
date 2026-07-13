@@ -31,20 +31,3 @@ int main() // Must return an integers and changed int main().
 		average = total / NUM_READINGS;
 		
 		cout << "Experiment " << i << "average :" << fixed << setprecision(2) << average;
-		
-		if(average < 100 ) // Evaluates average and into < 100.
-		{
-			cout << "Experiment " << i << " : Below acceptable range." << endl;
-		}
-		else if (average >= 100 && average <= 300 ) // Logic error
-		{
-			cout << "Experiment " << i << " : Within acceptable range." << endl;
-		}
-		else
-		{
-			cout << "Experiment " << i << ": Above accpetable range." << endl;
-		}
-	}
-	
-	return 0;
-}
